@@ -1,0 +1,7 @@
+{
+  "inputDirs": ["P:/jk/JK_HearingIndicator/addons"],
+  "includePaths": ["P:/"],
+  "excludeList": ["settings.sqf"],
+  "outputDir": "P:/",
+  "workerThreads": 0
+}
