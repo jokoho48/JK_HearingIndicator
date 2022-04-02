@@ -10,14 +10,14 @@
     };
     private _netId = _unit call BIS_fnc_netId;
     if !(_netId in GVAR(PlayerList)) exitWith {};
-    (GVAR(PlayerList) select _netId) set [2, true];
+    (GVAR(PlayerList) get _netId) set [2, true];
 }] call CBA_fnc_addEventHandler;
 
 ["acre_remoteStoppedSpeaking", {
     params ["_unit"];
     private _netId = _unit call BIS_fnc_netId;
     if !(_netId in GVAR(PlayerList)) exitWith {};
-    (GVAR(PlayerList) select _netId) set [2, true];
+    (GVAR(PlayerList) get _netId) set [2, false];
 }] call CBA_fnc_addEventHandler;
 
 
